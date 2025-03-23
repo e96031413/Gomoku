@@ -1,4 +1,5 @@
 # Gomoku Game
+![Gomoku](https://github.com/user-attachments/assets/3889f205-7af6-4d5a-a62b-f6673bf0cb80)
 
 This is a static HTML/CSS/JS Gomoku (五子棋) game that supports both two-player (雙人對戰) mode and AI battle (AI 對戰) mode with an adjustable AI difficulty. The game is fully responsive and automatically adapts to different devices and window sizes.
 
