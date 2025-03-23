@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>五子棋遊戲</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>五子棋遊戲</h1>
+  </header>
+  <main>
+    <section id="game-container">
+      <!-- 五子棋棋盤 -->
+      <div id="board"></div>
+    </section>
+    <section id="controls">
+      <!-- 遊戲模式選擇 -->
+      <div id="mode-select">
+        <label><input type="radio" name="mode" value="pvp" checked> 雙人對戰</label>
+        <label><input type="radio" name="mode" value="ai"> AI 對戰</label>
+      </div>
+      <!-- 按鈕 -->
+      <button id="undoBtn">撤銷上一步</button>
+      <button id="restartBtn">重新開始</button>
+    </section>
+  </main>
+  <script src="game.js"></script>
+</body>
+</html>
