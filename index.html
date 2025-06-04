@@ -15,11 +15,25 @@
       <!-- 五子棋棋盤 -->
       <div id="board"></div>
     </section>
+    <section id="scoreboard">
+      黑棋勝：<span id="scoreBlack">0</span> | 白棋勝：<span id="scoreWhite">0</span>
+    </section>
     <section id="controls">
       <!-- 遊戲模式選擇 -->
       <div id="mode-select">
         <label><input type="radio" name="mode" value="pvp" checked> 雙人對戰</label>
         <label><input type="radio" name="mode" value="ai"> AI 對戰</label>
+      </div>
+      <!-- 棋盤大小選擇 -->
+      <div id="board-size-select">
+        <label for="boardSize">棋盤大小：</label>
+        <select id="boardSize">
+          <option value="9">9x9</option>
+          <option value="11">11x11</option>
+          <option value="13">13x13</option>
+          <option value="15" selected>15x15</option>
+          <option value="19">19x19</option>
+        </select>
       </div>
       <!-- 按鈕 -->
       <button id="undoBtn">撤銷上一步</button>
