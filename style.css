@@ -7,17 +7,19 @@
 
 /* 版型設定 */
 body {
-  font-family: Arial, sans-serif;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   display: flex;
   flex-direction: column;
   min-height: 100vh;
+  background: #fafafa;
 }
 
 header {
-  background: #444;
+  background: linear-gradient(135deg, #1e90ff, #00bfff);
   color: #fff;
-  padding: 1rem;
+  padding: 1.2rem 1rem;
   text-align: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
 }
 
 main {
@@ -37,6 +39,9 @@ main {
   height: 90vmin;
   background: #444;
   margin-bottom: 1rem;
+  border: 2px solid #333;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
 }
 
 .cell {
@@ -46,6 +51,12 @@ main {
   padding-bottom: 100%;
   position: relative;
   cursor: pointer;
+  border: 1px solid #b58863;
+  transition: background 0.2s;
+}
+
+.cell:hover {
+  background: #f7e6c7;
 }
 
 .cell span {
@@ -62,6 +73,7 @@ main {
   width: 80%;
   height: 80%;
   transform: translate(-50%, -50%);
+  filter: drop-shadow(0 1px 2px rgba(0, 0, 0, 0.5));
 }
 
 /* 控制區樣式 */
@@ -69,6 +81,10 @@ main {
   display: flex;
   flex-direction: column;
   align-items: center;
+  background: #fff;
+  padding: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 #controls button {
@@ -76,6 +92,15 @@ main {
   margin: 0.5rem;
   font-size: 1rem;
   cursor: pointer;
+  background: #1e90ff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  transition: background 0.2s;
+}
+
+#controls button:hover {
+  background: #3aa0ff;
 }
 
 #mode-select {
@@ -89,6 +114,10 @@ main {
 #scoreboard {
   margin: 0.5rem 0;
   font-size: 1.2rem;
+  background: #fff;
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 @media (max-width: 600px) {
