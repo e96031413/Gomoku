@@ -23,6 +23,7 @@ This is a static HTML/CSS/JS Gomoku (五子棋) game that supports both two-play
   - **Win Highlighting**: The final move that results in a win is highlighted.
   - **Scoreboard**: Tracks wins for both players and persists results with `localStorage`.
   - **Board Size Selection**: Choose between multiple board sizes for different difficulty levels.
+  - **Polished UI**: Modern styling with subtle animations for a smoother experience.
 
 ## File Structure
 
