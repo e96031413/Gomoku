@@ -21,6 +21,8 @@ This is a static HTML/CSS/JS Gomoku (五子棋) game that supports both two-play
   - **Undo Last Move**: Allows reverting the last move.
   - **Restart Game**: Provides an option to restart the game with confirmation.
   - **Win Highlighting**: The final move that results in a win is highlighted.
+  - **Scoreboard**: Tracks wins for both players and persists results with `localStorage`.
+  - **Board Size Selection**: Choose between multiple board sizes for different difficulty levels.
 
 ## File Structure
 

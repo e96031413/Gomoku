@@ -82,6 +82,15 @@ main {
   margin-bottom: 1rem;
 }
 
+#board-size-select {
+  margin-bottom: 1rem;
+}
+
+#scoreboard {
+  margin: 0.5rem 0;
+  font-size: 1.2rem;
+}
+
 @media (max-width: 600px) {
   header, main {
     padding: 0.5rem;
